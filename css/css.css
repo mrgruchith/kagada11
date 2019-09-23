@@ -206,7 +206,7 @@ body {
     background: rgb(255, 117, 37);
     margin: 5% 5%;
     border-radius: 5px;
-    width: 120%;
+   
 }
 .topicdiv h1 {
     text-align: center;
@@ -582,6 +582,9 @@ div.sticky{
     #content-des .close2{
         display: none;
     }
+    .topicdiv{
+        width: 90%;
+    }
 
   }
   @media(min-width: 600px){
@@ -651,5 +654,8 @@ div.sticky{
     .mapuvce iframe{
         height: 420px;
         width: 450px;
+    }
+    .topicdiv{
+        width: 120%;
     }
   }
