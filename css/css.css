@@ -195,6 +195,7 @@ body {
     background: rgb(255, 117, 37);
     margin: 5% 5%;
     border-radius: 5px;
+    width: 80%;
 }
 .topicdiv h1 {
     text-align: center;
@@ -228,16 +229,17 @@ body {
 }
 
 .dropbtn {
-    background-color: rgb(25, 109, 165);
+    background-color: black;
     color: white;
     padding: 16px;
     font-size: 150%;
     border: none;
     cursor: pointer;
+    border-bottom: 2px solid white;
 
 }
 .dropbtn:hover, .dropbtn:focus {
-    background-color: rgb(11, 40, 59);
+    background-color : #f15b15;
 }
 .dropdown {
     position: relative;
