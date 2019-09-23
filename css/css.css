@@ -10,28 +10,34 @@ body {
     z-index: 1;
     top: 0;
     left: 0;
-    background-color:white;
+    background-color:#f15b15;
+    background: -moz-linear-gradient(left, rgba(243, 75, 9, 0.938) 0%, rgba(253, 160, 123, 0.76) 30%, rgba(230, 84, 26, 0.938) 60%, rgba(243, 75, 9, 0.938)100%);
+    background: -webkit-linear-gradient(left, rgba(243, 75, 9, 0.938) 0%, rgba(253, 160, 123, 0.76) 30%, rgba(230, 84, 26, 0.938) 60%, rgba(243, 75, 9, 0.938)100%);
+    background: linear-gradient(left, rgba(243, 75, 9, 0.938) 0%, rgba(253, 160, 123, 0.76) 30%, rgba(230, 84, 26, 0.938) 60%, rgba(243, 75, 9, 0.938)100%);
     text-align: center;
     overflow-x: hidden;
     overflow-y: auto;
     transition: 0.5s;
     display: flex;
-    /*background=color : linear-gradient(to left, white 200px, black 100%;*/
+    /*background=color : linear-gradient(to left, white 200px, black 100%;*/4
+
     
   }
   
   #mySidebar a {
     text-align: center;
+    color: white;
     padding: 10px;
     text-decoration: none;
     font-size: 25px;
     display: block;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     transition: 0.3s;
   }
  
   #mySidebar a:hover {
-    background-color: #f15b15;
-    color: white;
+    background-color: white;
+    color: #f15b15;
   }
   
   
@@ -76,7 +82,8 @@ body {
     background-color: #f9f9f9;
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: ; 
+    z-index:1;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;  
   }
 
   .s-kagada:hover .kagadacontent{
@@ -114,7 +121,11 @@ body {
     margin: 2% 5%;
     border-radius: 5px;
 }
-.kagada2018 .k-title{background-color: rgb(255, 117, 37);}
+.kagada2018 .k-title h1{
+    background-color: rgb(255, 117, 37);
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+}
 .kagada2018 h1 {
   
     text-align: center;
@@ -150,7 +161,7 @@ body {
     color: black;
     background-color: white;
     font-family: 'Cormorant Garamond',Calibri,'Trebuchet MS',sans-serif;
-    font-weight: bolder;
+    font-weight: bold;
     width: 250px;
     height: 190px;
     font-size: 28px;
@@ -161,7 +172,7 @@ body {
 }
 .home2 .cardpart {
     color: white;
-    background-color : rgb(255, 117, 37);
+    background-color : black;
     font-family: 'Cormorant Garamond',
     Calibri,
     'Trebuchet MS',
@@ -195,17 +206,15 @@ body {
     background: rgb(255, 117, 37);
     margin: 5% 5%;
     border-radius: 5px;
-    width: 80%;
+    width: 120%;
 }
 .topicdiv h1 {
     text-align: center;
     align-content: center;
     color: black;
     font-size: 300%;
-    font-family: 'Cormorant Garamond',
-    Calibri,
-    'Trebuchet MS',
-    sans-serif;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
     display: block;
     margin: 2% 2% 0% 2%;
     padding: 2%;
@@ -281,7 +290,7 @@ body {
     text-align: center;
     color: black;
     align-content: center;
-    padding: 0.25%;
+    padding: 0.15%;
     font-size: 20px;
     background: -moz-linear-gradient(left, rgba(0, 0, 0, 0) 0%, rgba(260, 260, 260, 0.85) 50%, rgba(0, 0, 0, 0) 100%);
     background: -webkit-linear-gradient(left, rgba(0, 0, 0, 0) 0%, rgba(260, 260, 260, 0.85) 50%, rgba(0, 0, 0, 0) 100%);
@@ -294,12 +303,11 @@ body {
 .gallery1{
 
     background: black;
-    margin: 4%;
+    margin: 0%;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     align-content: center;
-    margin-left: 0%;
 }
 .gallery img{
     border: 2px solid #fff;
@@ -307,7 +315,7 @@ body {
 }
 div.gallery {
     margin: 1%;
-    
+    padding: 0% 4%;
     width: 60vh;
     opacity: 0.8;
 }
@@ -321,8 +329,6 @@ div.gallery:hover {
 div.gallery img {
     width: 120%;
     height: 90%;
-    padding: 0%;
-    
 }
 /*----------------------------------------------------------------------------------------------------------------------------------------*/
 
@@ -399,7 +405,7 @@ div.gallery img {
     Calibri,
     'Trebuchet MS',
     sans-serif;
-    font-size: 7vh;
+    font-size: 10vh;
     margin: 4%;
     margin-top: -5%;
     max-height: 250px;
@@ -408,6 +414,13 @@ div.gallery img {
     justify-content: space-evenly;
     display: block;
     font-style: bold;
+}
+.home1 .left1 h1{
+    font-size: 12vh;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    color:whitesmoke;
+    
 }
 
 .left1 h1:hover {
@@ -418,15 +431,16 @@ div.gallery img {
 
 }
 .home1 .right1{
-    color: white;
+    color: black;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 1.2rem;
     opacity: 0.93;
     /* margin-top: -3%; */
     text-align: justify;
     width: 50ch;
-    border: dotted ;
+    border: 1px solid;
     border-color: #f15b15;
+    background-color: white;
     border-radius: 10px;
     margin: 1% 2%;
     margin-bottom: 0%;
@@ -524,6 +538,7 @@ div.sticky{
 }
 /*----------------------------------------------------------------------------------------------------------------------------------*/
 .numbers{
+    padding: 10px;
     color: white;
 }
 /*----------------------------------------------------------------------------------------------------------------------------------*/
@@ -550,9 +565,22 @@ div.sticky{
     #main{
         margin-left: 0;
     }
-    .mapuvce{
+    .mapuvce iframe{
         height: 420px;
-        width: 50%;
+        width: 100%;
+        padding: 10px;
+    }
+    .gallery{
+        padding: 10px;
+        width: 80px;
+        margin: 0%;
+    }
+    .gallery1 .gallery img{
+        border: 2px solid #fff;
+        width: 100%;
+    }
+    #content-des .close2{
+        display: none;
     }
 
   }
@@ -564,7 +592,7 @@ div.sticky{
     #content-des{
         height: 100%;
         z-index: 2;
-        margin-left: 250px;
+        margin-left: 200px;
         
     }
     #mySidebar{
@@ -620,8 +648,8 @@ div.sticky{
     .contact{
         display: flex;
     }
-    .mapuvce{
+    .mapuvce iframe{
         height: 420px;
-        width: 50%;
+        width: 450px;
     }
   }
